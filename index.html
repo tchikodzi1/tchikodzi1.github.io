@@ -198,7 +198,67 @@ footer{
   padding:60px;
   color:#64748b;
 }
+@media (max-width: 768px){
 
+  /* NAV FIX */
+  nav{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:10px;
+  }
+
+  .nav-links{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-left:0;
+  }
+
+  .nav-links button{
+    margin-left:0;
+  }
+
+  /* HERO TEXT FIX */
+  h1{
+    font-size:2.2rem;
+    letter-spacing:-1px;
+  }
+
+  .subtitle{
+    font-size:1rem;
+  }
+
+  /* SPACING FIX */
+  .hero{
+    padding:120px 6% 80px;
+  }
+
+  section{
+    padding:80px 6%;
+  }
+
+  /* BUTTON FIX */
+  .buttons{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .btn{
+    width:100%;
+    text-align:center;
+  }
+
+  /* GRID FIX */
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+  /* HEADSHOT FIX (if you added it) */
+  .avatar{
+    width:110px;
+    height:110px;
+  }
+}
 </style>
 </head>
 
